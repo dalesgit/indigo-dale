@@ -4,6 +4,13 @@
 # documentation.
 
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
+
+# below my attempt to use updated node version
+runs:
+  using: 'node24'
+  main: 'main.js'
+# below from defaults
+
 name: Deploy Jekyll site to Pages
 
 on:
