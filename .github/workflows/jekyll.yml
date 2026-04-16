@@ -12,8 +12,8 @@
 # below from defaults
 
 name: Deploy Jekyll site to Pages
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   
+#env:
+ # FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   
 on:
   # Runs on pushes targeting the default branch
   push:
